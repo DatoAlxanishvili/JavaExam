@@ -7,7 +7,6 @@ public class FromStringToInt {
     public static void main(String[] args){
         Scanner scanner= new Scanner(System.in);
         String word=scanner.nextLine();
-        System.out.println(power(10,2));
         System.out.println(parseInt(word));
     }
     private static int parseInt(String st){

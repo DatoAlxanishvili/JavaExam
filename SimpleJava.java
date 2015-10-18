@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class SimpleJava {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("input the sequence");
         int num=scanner.nextInt();
 
         int previousNumber=0;
@@ -21,6 +22,6 @@ public class SimpleJava {
             num=scanner.nextInt();
 
         }
-        System.out.println(countMax);
+        System.out.println("Length of the max subsequence: "+countMax);
     }
 }
